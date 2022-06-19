@@ -8,9 +8,8 @@ RUN apk --no-cache add ca-certificates wget curl && update-ca-certificates && \
 		gtk+3.0 \
 		dbus-x11 \
 		dbus \
-		webkit2gtk
-
-
+		webkit2gtk \ 
+		openbox
 
 FROM base as app
 
